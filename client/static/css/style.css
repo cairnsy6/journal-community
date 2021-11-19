@@ -1,0 +1,85 @@
+/* Below doesnt work
+@import url('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Antic&family=Balsamiq+Sans:wght@700&family=Dancing+Script:wght@400;500&family=Lato:wght@300;400&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Balsamiq+Sans:wght@700&family=Cabin&family=Dancing+Script:wght@400;500&family=Lato:wght@300;400&family=Montserrat:wght@300;400&display=swap');
+
+body{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-color: #FFCE45;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+#welcome-area{
+    margin-top:9rem;
+    background-color: #D4AC2B;
+    border-radius: 3rem;
+    padding:2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+#welcome-area h1{
+    font-size:6rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+#welcome-area h4{
+    font-size:2rem;
+    margin-top:2rem;
+    text-align: center;
+    
+}
+
+.welcome-area-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fas{
+    margin-left:2rem;
+}
+
+.card{
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    height: 21rem;
+    width:45%;
+    display: inline-flex;
+    color: black;
+    padding:2rem;
+    margin-bottom: 2rem;
+}
+
+.card:hover {
+    box-shadow: 4px 4px 4px grey;
+}
+
+
+
+.button-area{
+    margin-left: 3rem;
+}
+
+.button-area button{
+    margin-top:1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;;
+    border-radius:3rem;
+    box-shadow: 3px 3px 3px grey;
+    
+}
+
+button{
+    margin-top:1rem;
+    margin-left:1rem;
+
+}
+
+a{
+    text-decoration: none;
+}
