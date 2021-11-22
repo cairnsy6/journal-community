@@ -12,7 +12,7 @@ const posts = [
     },
     {
         id:2,
-        title:"Why when we talk about God do we look to the sky?",
+        title:"Why when we talk about God why do we look to the sky?",
         message:"Why look up. Why not down or to the sea. I get the sun being there but what if it was something else that made us look up?",
         image:"https://giphy.com/embed/12NlCFUvTokWXe",
         dislikes: 0,

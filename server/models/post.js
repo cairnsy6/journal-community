@@ -28,6 +28,16 @@ class Post{
             throw new Error("No post is available with that id")
         }
     } 
+
+    static create(post){
+        const newPostId = postsData.length + 1;
+        const newPost = new Post({ id: newPostId, ...post });
+        postsData.push(newPost);
+        return newPost;
+    }
+
+
+    
 }
 
 module.exports = Post;

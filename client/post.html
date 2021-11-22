@@ -17,8 +17,22 @@
         <h4>Here Whats Going on In the Community Journal World</h4>
         <div class="welcome-area-buttons">
         <a href="index.html"><button class="btn btn-dark btn-lg">Home</button></a>
-        <a href="makeapost.html"><button class="btn btn-dark btn-lg">Write a Post</button></a>
+        <button id="write-a-post-button" class="btn btn-dark btn-lg">Write a Post</button>
         </div>
+    </section>
+    <section id="write-a-post">
+        <form class="py-5 px-5 row g-3">
+            <div class="col-md-12">
+              <input type="text" class="form-control" id="postTitle" placeholder="Give your post a title">
+            </div>
+            <div class="col-md-12">
+                <input type="text" class="form-control" id="postGiphy" placeholder="Add an image? Send the url">
+              </div>
+           <textarea name="postMessage" id="postMessage" cols="30" rows="10" maxlength="250" placeholder="Tell us about your message (250 character limit)"></textarea>
+            <div class="col-12">
+              <button id="postSubmitButton" type="submit" class="btn btn-primary btn-lg">Send</button>
+            </div>
+          </form>
     </section>
     <section id="posts-area">
 
